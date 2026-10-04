@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Beautiful Girl ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FLOATING HEARTS -->
+    <div class="hearts">
+        <span>❤️</span>
+        <span>💕</span>
+        <span>🌸</span>
+        <span>❤️</span>
+        <span>💗</span>
+        <span>🌷</span>
+        <span>💕</span>
+        <span>❤️</span>
+    </div>
+
+
+    <main class="container">
+
+
+        <!-- ========================= -->
+        <!-- PAGE 1 -->
+        <!-- ========================= -->
+
+        <section id="page1" class="page active">
+
+            <div class="flower">🌸</div>
+
+            <p class="small-text">
+                A little place made just for you
+            </p>
+
+            <h1>
+                Hey Beautiful<br>
+                <span>❤️</span>
+            </h1>
+
+            <p class="message">
+                I know today may not be the easiest day for you.
+                So I made this little website just to remind you
+                that you don't have to go through it alone.
+            </p>
+
+            <p class="love-message">
+                Rest. Breathe. Eat something you love.
+                And remember that I'm right here for you. 🫂
+            </p>
+
+
+            <div class="buttons">
+
+                <button onclick="comfortMe()">
+                    🫂 I Need Comfort
+                </button>
+
+                <button onclick="makeMeSmile()">
+                    😂 Make Me Smile
+                </button>
+
+                <button onclick="chocolate()">
+                    🍫 I Need Chocolate
+                </button>
+
+                <button onclick="loveMessage()">
+                    💌 Give Me A Message
+                </button>
+
+            </div>
+
+
+            <div id="messageBox" class="message-box">
+
+                <p id="specialMessage">
+                    Choose one of the buttons above ❤️
+                </p>
+
+            </div>
+
+
+            <button class="next-page" onclick="showPage(2)">
+                🌸 How Am I Feeling? →
+            </button>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- PAGE 2 -->
+        <!-- ========================= -->
+
+        <section id="page2" class="page">
+
+            <div class="flower">🌷</div>
+
+            <p class="small-text">
+                This page is all about you
+            </p>
+
+
+            <section class="care-section">
+
+                <h2>
+                    How Are You Feeling, Baby?
+                </h2>
+
+                <p>
+                    Tell me how you're feeling today. ❤️
+                </p>
+
+
+                <div class="feeling-buttons">
+
+                    <button onclick="feeling('cramps')">
+                        😣 I'm Having Cramps
+                    </button>
+
+                    <button onclick="feeling('sad')">
+                        😔 I'm Feeling Low
+                    </button>
+
+                    <button onclick="feeling('tired')">
+                        😴 I'm Tired
+                    </button>
+
+                    <button onclick="feeling('moody')">
+                        😡 I'm Moody
+                    </button>
+
+                    <button onclick="feeling('okay')">
+                        😊 I'm Feeling Okay
+                    </button>
+
+                </div>
+
+
+                <div id="careResponse" class="care-response">
+
+                    Your feelings matter to me, sweetheart. ❤️
+
+                </div>
+
+            </section>
+
+
+            <button class="back-page" onclick="showPage(1)">
+                ← ❤️ Back To My Messages
+            </button>
+
+
+            <button class="next-page" onclick="showPage(3)">
+                💌 Something From My Heart →
+            </button>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- PAGE 3 -->
+        <!-- ========================= -->
+
+        <section id="page3" class="page">
+
+            <div class="flower">💌</div>
+
+            <p class="small-text">
+                A little something from my heart
+            </p>
+
+            <h1>
+                Even From Far Away
+                <span>❤️</span>
+            </h1>
+
+
+            <div class="love-letter">
+
+                <div class="letter-heart">
+                    ❤️
+                </div>
+
+                <p>
+                    My love,
+                </p>
+
+                <p>
+                    I know I'm a little far from you right now,
+                    and I wish I could be there beside you.
+                </p>
+
+                <p>
+                    I wish I could hold you, make you comfortable,
+                    bring you something you love, and simply sit
+                    beside you until you feel better.
+                </p>
+
+                <p>
+                    But even though I can't be there physically,
+                    please remember that you're not alone.
+                    I'm thinking about you, I'm caring about you,
+                    and I'm only a message or call away.
+                </p>
+
+                <p>
+                    So rest, take care of yourself, and be gentle
+                    with yourself today.
+                </p>
+
+                <p>
+                    And whenever you feel like I'm too far away,
+                    come back to this little page and remember
+                    that there's someone who loves you and is
+                    thinking about you. ❤️
+                </p>
+
+                <p class="signature">
+                    Always yours,<br>
+                    ❤️
+                </p>
+
+            </div>
+
+
+            <button class="remember-button" onclick="rememberThis()">
+                ❤️ Remember This
+            </button>
+
+
+            <div id="finalMessage" class="final-message">
+            </div>
+
+
+            <button class="back-page" onclick="showPage(2)">
+                ← 🌷 Back To How I'm Feeling
+            </button>
+
+        </section>
+
+
+        <div class="footer">
+            Made with love, just for you ❤️
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
